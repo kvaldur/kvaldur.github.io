@@ -12,33 +12,6 @@
 	<!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
 	
-<style>
-  /* Все изображения внутри статей будут увеличиваться при наведении */
-  .blog-post img,
-  .WordSection1 img {
-    transition: transform 0.4s var(--ease-smooth), box-shadow 0.3s var(--ease-smooth);
-    position: relative;
-    z-index: 1;
-    box-shadow: var(--shadow-2);
-    border-radius: var(--radius-2);
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-
-  .blog-post img:hover,
-  .WordSection1 img:hover {
-    transform: scale(1.2);
-    z-index: 100;
-    box-shadow: var(--shadow-5);
-  }
-
-  /* Гарантируем, что у контейнеров нет скрытия переполнения */
-  .blog-post,
-  .WordSection1 {
-    overflow: visible !important;
-  }
-</style>
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="https://unpkg.com/open-props"/>
